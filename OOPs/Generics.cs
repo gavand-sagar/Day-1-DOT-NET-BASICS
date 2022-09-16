@@ -1,5 +1,6 @@
 ﻿using OOPs.Inheritance;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -105,6 +106,20 @@ namespace OOPs
 
             customer.Display();
 
+            //LINQ 
+
+            //    SELECT * FROM STUDENT  // all the record
+
+            //    SELECT * FROM STUDENT WHERE STUDENT_NAME = 'Sagar' // only with name sagar
+
+
+           ArrayList arrayList = new ArrayList();
+
+            arrayList.Add(customer);
+            arrayList.Add(10);
+            arrayList.Add("Sagar");
+
+            var value = (Customer)arrayList[0];
 
         }
 

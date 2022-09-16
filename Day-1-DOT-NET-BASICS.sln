@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day-1-DOT-NET-BASICS", "Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPs", "OOPs\OOPs.csproj", "{0D09901C-6959-47C8-BD2C-C2336FE17DF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{FDB36E17-1C21-4463-A087-E66022C45DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{AA6A0F3A-B760-45C9-9EAF-9F5DC2E6E678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0D09901C-6959-47C8-BD2C-C2336FE17DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D09901C-6959-47C8-BD2C-C2336FE17DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D09901C-6959-47C8-BD2C-C2336FE17DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB36E17-1C21-4463-A087-E66022C45DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB36E17-1C21-4463-A087-E66022C45DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB36E17-1C21-4463-A087-E66022C45DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB36E17-1C21-4463-A087-E66022C45DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6A0F3A-B760-45C9-9EAF-9F5DC2E6E678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6A0F3A-B760-45C9-9EAF-9F5DC2E6E678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6A0F3A-B760-45C9-9EAF-9F5DC2E6E678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6A0F3A-B760-45C9-9EAF-9F5DC2E6E678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

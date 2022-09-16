@@ -2,10 +2,13 @@
 
 namespace OOPs.Inheritance
 {
+    [Serializable]
     public class Customer
     {
         public int Id { get; set; }
-        public int CustomerName { get; set; }
+        public string CustomerName { get; set; }
+
+        public int DepartmentId { get; set; }
 
         public DateTime dob;
         public int Age
@@ -16,7 +19,7 @@ namespace OOPs.Inheritance
             }
         }
 
-        protected int _discount;
+        private protected int _discount;
         public int Discount
         {
             get

@@ -8,44 +8,22 @@ namespace OOPs
     {
         static void Main(string[] args)
         {
-            //Customer customer = new Customer();
-            //Console.WriteLine(customer.Id);
-            //Console.WriteLine(customer.Discount);
 
-            //SilverCustomer silverCustomer = new SilverCustomer();
-            //Console.WriteLine(silverCustomer.Id);
-            //Console.WriteLine(silverCustomer.Discount);
+            Enum.Execute();
 
-            //GoldCustomer goldCustomer = new GoldCustomer();
-            //Console.WriteLine(goldCustomer.Id);
-            //Console.WriteLine(goldCustomer.Discount);
-
-            //goldCustomer.dob = DateTime.Parse("1981-05-02");
-            //Console.WriteLine(goldCustomer.Age);
-
-
-
-            //List<Customer> customers= new List<Customer>();
-
-            //customers.Add(new Customer());
-            //customers.Add(new SilverCustomer());
-            //customers.Add(new GoldCustomer());
-
-            //foreach (Customer item in customers)
-            //{
-            //    Console.WriteLine(item.Discount);
-            //}
-            Generics.Execute();
+            try
+            {
+                Exceptions.Execute();
+            }
+            catch (Exception)
+            {
+                //
+                Console.WriteLine("there is an error in application");
+                //there was some code here
+            }
 
             Console.ReadLine();
         }
-
-
-
-
-
-
-
 
 
 
